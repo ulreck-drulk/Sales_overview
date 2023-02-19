@@ -8,10 +8,10 @@
  The warehouse was used with Power BI Desktop and then published publicly.
  All the tools used to complete this project are shown below.
  Overall we can determine the company has a prety solid return from sales comapred to their budget being the "Serious Back" their best product.
+ 
+![preview](/preview1.png)
 
- You can access to the preview report with this [link](https://app.powerbi.com/view?r=eyJrIjoiMGIxZDFhZDUtZjNhZi00OGJiLWFkYjQtN2FiNjNlNDlmODk0IiwidCI6ImE3ZjFiNTM5LTYyNWUtNDE5Ny1hODFiLWM0ODQ0MWMzNzNlMCJ9)
-
-
+You can access to the preview report with this [link](https://app.powerbi.com/view?r=eyJrIjoiMGIxZDFhZDUtZjNhZi00OGJiLWFkYjQtN2FiNjNlNDlmODk0IiwidCI6ImE3ZjFiNTM5LTYyNWUtNDE5Ny1hODFiLWM0ODQ0MWMzNzNlMCJ9)
 
     
 |Tools Used  | Download Link   |
