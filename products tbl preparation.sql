@@ -2,12 +2,12 @@
 Cleaning Products TBL == Preparing Data Model
 ******/
 SELECT 
-		products.[ProductKey]
+		 products.[ProductKey]
       ,products.[ProductAlternateKey] as internal_code
-	  ,products.[EnglishProductName]
+	   ,products.[EnglishProductName] Product_name
    -- ,products.ProductSubcategoryKey
       ,ISNULL(category.EnglishProductCategoryName, 'Not Classified') AS CategoryName -- Joined from category TBL
-	  ,ISNULL(subcategory.EnglishProductSubcategoryName, 'Not Classified') AS SubCategoryName -- Joined from subcategory TBL
+	   ,ISNULL(subcategory.EnglishProductSubcategoryName, 'Not Classified') AS SubCategoryName -- Joined from subcategory TBL
    -- ,products.[WeightUnitMeasureCode]
    -- ,products.[SizeUnitMeasureCode]
    -- ,products.[SpanishProductName]
@@ -22,13 +22,13 @@ SELECT
    -- ,products.[SizeRange]
    -- ,products.[Weight]
    -- ,products.[DaysToManufacture]
-   -- ,products.[ProductLine]
+      ,ISNULL(products.[ProductLine], 'NA') as Product_Line
    -- ,products.[DealerPrice]
    -- ,products.[Class]
    -- ,products.[Style]
-   -- ,products.[ModelName]
+      ,ISNULL(products.[ModelName], 'Not defined') as Model_name
    -- ,products.[LargePhoto]
-   -- ,products.[EnglishDescription]
+      ,ISNULL(products.[EnglishDescription], 'Not Defined') as Product_desc
    -- ,products.[FrenchDescription]
    -- ,products.[ChineseDescription]
    -- ,products.[ArabicDescription]
